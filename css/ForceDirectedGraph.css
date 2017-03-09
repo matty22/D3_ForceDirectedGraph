@@ -1,1 +1,12 @@
 /* Force Directed Graph CSS */
+
+.node {
+    fill: mediumspringgreen;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.link {
+    stroke: #bababa;
+    stroke-width: 2px;
+}
