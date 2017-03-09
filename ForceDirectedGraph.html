@@ -7,14 +7,20 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="css/ForceDirectedGraph.css">
+        <link rel="stylesheet" href="css/flags.css">
         <script src="https://d3js.org/d3.v3.min.js"></script>
     </head>
     <body>
         <div class="row">
-            <div class="col-md-2"></div>
+            <div class="col-md-2">
+              <div id="headerInfo">
+                <h4><em>Force Directed Graph Showing National Contiguity</em></h4>
+                <p>Countries connected by a line are touching in the real world</p>
+              </div>
+            </div>
             <div class="col-md-8">
                 <div class="row">
-                    <canvas width="900" height="600" id="chartDiv"></canvas>
+                    <div id="chartDiv"></div>
                 </div>
             </div>
             <div class="col-md-2"></div>
