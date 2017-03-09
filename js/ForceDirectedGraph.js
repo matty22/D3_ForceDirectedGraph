@@ -2,6 +2,8 @@
 // Relied upon the d3 tutorial series by Stephen Thomas http://bl.ocks.org/sathomas/11550728
 // And this youtube tutorial was very helpful as well https://www.youtube.com/watch?v=HP1tOlxVYz4
 
+// TODO: Make the tooltip location more flexible. Right now on larger displays it shows up a little too centered
+
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json');
     xhr.onload = function() {
